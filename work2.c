@@ -16,7 +16,7 @@ int main (void)
     if (choice==0)
         break;
     switch (choice){
-        case 1: price=3.00;break;
+        case 1: price=3.00;break;  /*case与数字间必须有空格 */
         case 2: price=2.50;break;
         case 3: price=4.10;break;
         case 4: price=10.20;break;
