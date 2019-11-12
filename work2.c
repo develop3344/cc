@@ -4,7 +4,7 @@ int main (void)
 {
     int i, choice ;
     double price ;
-    for(i=1;i<=5;i++)/* ++为自增 可查询五次价格 */{
+    for(i=1;i<=5;i++)/* ++为自增,注意分号 可查询五次价格 */{
         printf("[1] Select apples\n");
         printf("[2] Select pears\n");
         printf("[3] Select oranges\n");
