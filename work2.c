@@ -1,3 +1,4 @@
+/*P63 题目3-8 同P55例题3-8*/
 #include<stdio.h>
 int main (void)
 {
