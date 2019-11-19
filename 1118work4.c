@@ -29,7 +29,7 @@ int main (void)
 
     for(i=1;i<=n;i++)
     {
-        term*=i;       /*或者 term=term/i; e += term;*/
+        term*=i;       /*或者 term=term/i; e += term;    利用前后项的 相关性  */
         e+=1.0/term;
     }
     
