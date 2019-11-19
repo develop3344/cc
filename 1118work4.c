@@ -6,7 +6,7 @@ int main (void)
     double e=1,term=1;
     
 
-    while (term>=10^-5)
+    while (term>=1e-5)
     {
         fac=fac*n;
         term=1.0/fac;
