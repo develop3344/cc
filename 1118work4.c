@@ -29,7 +29,7 @@ int main (void)
 
     for(i=1;i<=n;i++)
     {
-        term*=i;
+        term*=i;       /*或者 term=term/i; e += term;*/
         e+=1.0/term;
     }
     
