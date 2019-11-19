@@ -11,7 +11,7 @@ int main (void)
         fac=fac*n;
         term=1.0/fac;
         e+=term;
-        n=n+1;
+//         n=n+1;  /*或者 n++  */
     }
     printf("e is %lf\n",e);
     return 0;
