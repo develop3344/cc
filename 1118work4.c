@@ -16,3 +16,25 @@ int main (void)
     printf("e is %lf\n",e);
     return 0;
 }
+
+
+/*求 e 的值 e= 1+ 1/1! +1/2! + ... +1/n!*/
+# include<stdio.h>
+int main (void)
+{
+    int n,i;
+    double term=1, e;
+    printf("Enter n:\n");
+    scanf("%d",&n);
+
+    for(i=1;i<=n;i++)
+    {
+        term*=i;
+        e+=1.0/term;
+    }
+    
+    e += 1;
+
+    printf("e is %.5lf\n",e);
+    return 0;
+}
