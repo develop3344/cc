@@ -6,7 +6,7 @@ int main (void)
     double e=1,term=1;
     
 
-    while (term>=1e-5)
+    while (term>=1e-5)  /*表示 1乘以10的5次幂 */
     {
         fac=fac*n;
         term=1.0/fac;
