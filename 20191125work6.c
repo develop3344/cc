@@ -15,7 +15,7 @@ int main(void)
         }
         if(i>sqrt(n)) /*最后一步 执行了 i++ */
         {
-            printf(" %d ",n); /*注意 引号与 %d 之间的空格 */
+            printf(" %d ",n); /*注意 引号与 %d 之间的空格 */   /* 用%5d试试 */
             count++;          /*注意 count  */
         }
          if (  count%10 == 0 ) 
