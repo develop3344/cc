@@ -1,3 +1,4 @@
+/*输出2到500之间的素数 每十个换一行 */
 # include<stdio.h>
 # include<math.h>
 int main(void)
