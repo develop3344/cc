@@ -2,7 +2,7 @@
 # include<math.h>
 int main(void)
 {
-    int n,i,count=0;
+    int n,i,count=0;  //count 计数
     for(n=1;n<=500;n++)
     {
         for(i=2;i<=sqrt(n);i++)
