@@ -5,7 +5,7 @@ int main(void)
     int n,i,count=0;  //count 计数
     for(n=1;n<=500;n++)
     {
-        for(i=2;i<=sqrt(n);i++)
+        for(i=2;i<=sqrt(n);i++)    /*sqrt(n)=pow(n,0.5)  但pow(n,1/2)是错误的 1/2为0，应该用0.5*/
         {
             if(n%i==0)
             {
