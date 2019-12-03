@@ -17,9 +17,6 @@ int main (void)
 }
 
 
-
-
-
 /*求 e 的值 e= 1+ 1/1! +1/2! + ... +1/n!*/
 # include<stdio.h>
 int main (void)
