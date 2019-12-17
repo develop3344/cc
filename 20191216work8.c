@@ -32,11 +32,11 @@ void sort(int x[], int n)
                 k = j;
             }
         }
-        if (k != i)
+        if (k != i)      //注意 if 语句位置
         {
             tmp = x[i];
             x[i] = x[k];
-            x[k] = tmp;
+            x[k] = tmp;  //tmp中间变量 x[i] x[k]交换位置
         }
     }
 }
